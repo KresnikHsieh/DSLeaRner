@@ -57,7 +57,7 @@
                             <a href="#">基礎攝影課程</a>
                             <div class="mobnav-subarrow"></div>
                             <ul>
-                                <li><a href="#">Courses grid</a></li>
+                                <!-- <li><a href="#">Courses grid</a></li> -->
                                 <!-- <li><a href="courses_list.html">Courses list</a></li> -->
                                 <li><a href="ch0.html">CH.0 如何拍攝一張『成功的照片』</a></li>
                                 <li><a href="ch1.html">CH.1 曝光三要素：光圈</a></li>
@@ -66,13 +66,13 @@
                                 <li><a href="ch4.html">CH.4 拍攝模式統合與曝光指示工具</a></li>
                                 <li><a href="ch5.html">CH.5 對焦模式：單點對焦、AI Servo、AI Focus</a></li>
                                 <li><a href="ch6.html">CH.6 鏡頭焦段概念介紹</a></li>
-                                <li><a href="ch7.html">CH.7 鏡頭介紹</a></li>
+                                <li><a href="ch7.html">CH.7 鏡頭標示與特性</a></li>
                                 <li><a href="ch8.html">CH.8 景深、壓縮感</a></li>
                                 <li><a href="ch9.html">CH.9 構圖原則介紹</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">單眼模擬器CamerSim</a></li>
-                        <li><a href="#">情境式測驗</a></li>
+                        <li><a href="CameraSimPage.html">單眼模擬器CamerSim</a></li>
+                        <li><a href="test.html">情境式測驗</a></li>
                         <li><a href="#">關於DSLeaRner</a></li>
                     </ul>
                     <div class="col-md-3 pull-right hidden-sm hidden-xs">
@@ -123,19 +123,15 @@
                             <ul class="recent_post">
                                 <li>
                                     <i class="icon-tag"></i>CH.1 曝光三要素：光圈
-                                    <div><a href="#">曝光</a></div>
+                                    <div><a href="#anchor1">曝光</a></div>
                                 </li>
                                 <li>
                                     <i class="icon-tag"></i>CH.1 曝光三要素：光圈
-                                    <div><a href="#">對焦</a></div>
+                                    <div><a href="#anchor2">光圈值</a></div>
                                 </li>
                                 <li>
                                     <i class="icon-tag"></i>CH.1 曝光三要素：光圈
-                                    <div><a href="#">鏡頭焦段特性</a></div>
-                                </li>
-                                <li>
-                                    <i class="icon-tag"></i>CH.1 曝光三要素：光圈
-                                    <div><a href="#">構圖</a></div>
+                                    <div><a href="#anchor3">光圈對成像的其他影響</a></div>
                                 </li>
                             </ul>
                         </div>
@@ -169,22 +165,32 @@
                     <div class="h-space"></div>					
 
 
-                    <div class="row">
+                    <div class="row" id="anchor1">
                     	<div class="col-xs-12 col-sm-6">
 		                    <h4>曝光</h4>
 		                    <p>光圈孔徑越大，單位時間內進光量越多，故曝光會較亮。  故其他條件固定的情況下：</br></p>
                             <h4>大光圈 -> 單位時間進光量多 -> 成像亮</h4></br>
-		                    </br>
+
+                            </br>
+                            <p>曝光能以水龍頭流出的水量進行比喻。</p>
+                            <p>總水量為曝光量/鏡頭進光量，水龍頭的開口大小為光圈孔徑大小，水龍頭開啟的時間為快門開啟的時間。</p>
+                            </br>
+                            <p>在水龍頭開啟的時間相同的情況下（快門相同），水龍頭的孔徑越大（光圈越大）</br>
+                            流出的水量會越大（進光量/曝光會越多）。</p>
+                            </br>
                     	</div>
 
                     	<div class="col-xs-12 col-sm-6">
                     		<img class="img-100" src="img/ch.1/ap_1.jpeg">
+                            </br>
+                            </br>
+                            <img class="img-100" src="img/pipe.jpg"></br>
                     	</div>
                     </div>
 
                     <div class="h-space"></div> 
 
-                    <div class="row">
+                    <div class="row" id="anchor2">
                     	<div class="col-xs-12 col-sm-6">
 		                    <h4>光圈值</h4>
 		                    <p>而一般習慣所說的光圈F1.4、F2.8、F4.0、F5.6等數值為『光圈值』。 光圈值為一比值，又稱為焦比。</p>
@@ -201,7 +207,7 @@
 
                      <div class="h-space"></div> 
 
-                     <div class="row">
+                     <div class="row" id="anchor3">
                     	<div class="col-xs-12 col-sm-12">
 		                    <h4>光圈對成像的其他影響</h4>
                         <p>光圈直接影響曝光，除了曝光外，光圈易影響其他幾項成像因素（依重要性排序）：</p>
@@ -287,71 +293,7 @@
         <!-- End container -->
     </section>
     <!-- End main_content-->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h3>Subscribe to our Newsletter for latest news.</h3>
-                    <div id="message-newsletter">
-                    </div>
-                    <form method="post" action="assets/newsletter.php" name="newsletter" id="newsletter" class="form-inline">
-                        <input name="email_newsletter" id="email_newsletter" type="email" value="" placeholder="Your Email" class="form-control">
-                        <button id="submit-newsletter" class=" button_outline"> Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="container" id="nav-footer">
-            <div class="row text-left">
-                <div class="col-md-3 col-sm-3">
-                    <h4>Browse</h4>
-                    <ul>
-                        <li><a href="prices_plans.html">Prices</a></li>
-                        <li><a href="courses_grid.html">Courses</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                    </ul>
-                </div>
-                <!-- End col-md-4 -->
-                <div class="col-md-3 col-sm-3">
-                    <h4>Next Courses</h4>
-                    <ul>
-                        <li><a href="course_details_1.html">Biology</a></li>
-                        <li><a href="course_details_2.html">Management</a></li>
-                        <li><a href="course_details_2.html">History</a></li>
-                        <li><a href="course_details_3.html">Litterature</a></li>
-                    </ul>
-                </div>
-                <!-- End col-md-4 -->
-                <div class="col-md-3 col-sm-3">
-                    <h4>About Learn</h4>
-                    <ul>
-                        <li><a href="about_us.html">About Us</a></li>
-                        <li><a href="apply_2.html">Apply</a></li>
-                        <li><a href="#">Terms and conditions</a></li>
-                        <li><a href="register.html">Register</a></li>
-                    </ul>
-                </div>
-                <!-- End col-md-4 -->
-                <div class="col-md-3 col-sm-3">
-                    <ul id="follow_us">
-                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                        <li><a href="#"><i class=" icon-google"></i></a></li>
-                    </ul>
-                    <ul>
-                        <li><strong class="phone">+0034 43244 44</strong>
-                            <br><small>Mon - Fri / 9.00AM - 06.00PM</small></li>
-                        <li>Questions? <a href="#">questions@domain.com</a></li>
-                    </ul>
-                </div>
-                <!-- End col-md-4 -->
-            </div>
-            <!-- End row -->
-        </div>
-        <div id="copy_right">© 1998-2014</div>
-    </footer>
+
     <div id="toTop">Back to top</div>
     <!-- JQUERY -->
     <script src="js/jquery-2.2.4.min.js"></script>
